@@ -3,7 +3,7 @@
 <body>
 
 
-<button id="btn" onclick="typeWriter()">press to start my love</button>
+<button style="height:200px;width:200px" id="btn" onclick="typeWriter()">press to start my love</button>
 
 <p id="demo"></p>
 
@@ -13,7 +13,6 @@
 btn.addEventListener('click', () => {
   // 👇️ hide button
   btn.style.display = 'none';
-
   // 👇️ show div
   const box = document.getElementById('box');
   box.style.display = 'block';
